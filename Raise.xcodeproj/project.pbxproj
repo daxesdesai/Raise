@@ -133,17 +133,11 @@
 				6F2D9F411FE35A94005AE4F4 /* Assets.xcassets */,
 				6F2D9F431FE35A94005AE4F4 /* LaunchScreen.storyboard */,
 				6F2D9F461FE35A94005AE4F4 /* Info.plist */,
-				6F2D9F681FE35DB4005AE4F4 /* ManualEntryController.swift */,
-				6FCD87721FE3CF000057F57C /* CardType.swift */,
-				6FCD87621FE385170057F57C /* HttpClient.swift */,
-				6FCD87641FE385C00057F57C /* Extensions.swift */,
-				6FCD87661FE387390057F57C /* FakeURLSession.swift */,
+				6F6802B01FE473A60055783D /* Controllers */,
+				6F6802B11FE473C20055783D /* CardValidation */,
+				6F6802B21FE473E60055783D /* Networking */,
 				6FCD87681FE38D850057F57C /* DonorInfo.swift */,
 				6FCD876C1FE38F3B0057F57C /* Token.swift */,
-				6FCD876E1FE3A02C0057F57C /* VerifyTransactionController.swift */,
-				6FCD87701FE3A34E0057F57C /* CustomTabController.swift */,
-				6FCD87741FE3CF150057F57C /* CardValid.swift */,
-				6F0AE9A21FE4035C00B784AF /* AmountController.swift */,
 			);
 			path = Raise;
 			sourceTree = "<group>";
@@ -164,6 +158,36 @@
 				6F2D9F5C1FE35A95005AE4F4 /* Info.plist */,
 			);
 			path = RaiseUITests;
+			sourceTree = "<group>";
+		};
+		6F6802B01FE473A60055783D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6F2D9F681FE35DB4005AE4F4 /* ManualEntryController.swift */,
+				6FCD876E1FE3A02C0057F57C /* VerifyTransactionController.swift */,
+				6FCD87701FE3A34E0057F57C /* CustomTabController.swift */,
+				6F0AE9A21FE4035C00B784AF /* AmountController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6F6802B11FE473C20055783D /* CardValidation */ = {
+			isa = PBXGroup;
+			children = (
+				6FCD87721FE3CF000057F57C /* CardType.swift */,
+				6FCD87741FE3CF150057F57C /* CardValid.swift */,
+			);
+			path = CardValidation;
+			sourceTree = "<group>";
+		};
+		6F6802B21FE473E60055783D /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				6FCD87621FE385170057F57C /* HttpClient.swift */,
+				6FCD87641FE385C00057F57C /* Extensions.swift */,
+				6FCD87661FE387390057F57C /* FakeURLSession.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
