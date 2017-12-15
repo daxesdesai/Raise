@@ -7,13 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F0AE9A31FE4035C00B784AF /* AmountController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0AE9A21FE4035C00B784AF /* AmountController.swift */; };
 		6F2D9F3B1FE35A94005AE4F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2D9F3A1FE35A94005AE4F4 /* AppDelegate.swift */; };
-		6F2D9F3D1FE35A94005AE4F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2D9F3C1FE35A94005AE4F4 /* ViewController.swift */; };
-		6F2D9F401FE35A94005AE4F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F2D9F3E1FE35A94005AE4F4 /* Main.storyboard */; };
 		6F2D9F421FE35A94005AE4F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F2D9F411FE35A94005AE4F4 /* Assets.xcassets */; };
 		6F2D9F451FE35A94005AE4F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F2D9F431FE35A94005AE4F4 /* LaunchScreen.storyboard */; };
 		6F2D9F501FE35A95005AE4F4 /* RaiseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2D9F4F1FE35A95005AE4F4 /* RaiseTests.swift */; };
 		6F2D9F5B1FE35A95005AE4F4 /* RaiseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2D9F5A1FE35A95005AE4F4 /* RaiseUITests.swift */; };
+		6F2D9F691FE35DB4005AE4F4 /* ManualEntryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2D9F681FE35DB4005AE4F4 /* ManualEntryController.swift */; };
+		6FCD87631FE385170057F57C /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCD87621FE385170057F57C /* HttpClient.swift */; };
+		6FCD87651FE385C00057F57C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCD87641FE385C00057F57C /* Extensions.swift */; };
+		6FCD87671FE387390057F57C /* FakeURLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCD87661FE387390057F57C /* FakeURLSession.swift */; };
+		6FCD87691FE38D850057F57C /* DonorInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCD87681FE38D850057F57C /* DonorInfo.swift */; };
+		6FCD876D1FE38F3B0057F57C /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCD876C1FE38F3B0057F57C /* Token.swift */; };
+		6FCD876F1FE3A02C0057F57C /* VerifyTransactionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCD876E1FE3A02C0057F57C /* VerifyTransactionController.swift */; };
+		6FCD87711FE3A34E0057F57C /* CustomTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCD87701FE3A34E0057F57C /* CustomTabController.swift */; };
+		6FCD87731FE3CF000057F57C /* CardType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCD87721FE3CF000057F57C /* CardType.swift */; };
+		6FCD87751FE3CF150057F57C /* CardValid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCD87741FE3CF150057F57C /* CardValid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6F0AE9A21FE4035C00B784AF /* AmountController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountController.swift; sourceTree = "<group>"; };
+		6F0AE9AD1FE4500F00B784AF /* TesseractOCR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TesseractOCR.framework; path = "../../Downloads/Tesseract Resources/TesseractOCR.framework"; sourceTree = "<group>"; };
+		6F0AE9AF1FE4502900B784AF /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		6F0AE9B11FE4506800B784AF /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
 		6F2D9F371FE35A94005AE4F4 /* Raise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Raise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F2D9F3A1FE35A94005AE4F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6F2D9F3C1FE35A94005AE4F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6F2D9F3F1FE35A94005AE4F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6F2D9F411FE35A94005AE4F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F2D9F441FE35A94005AE4F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F2D9F461FE35A94005AE4F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +58,16 @@
 		6F2D9F561FE35A95005AE4F4 /* RaiseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaiseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F2D9F5A1FE35A95005AE4F4 /* RaiseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaiseUITests.swift; sourceTree = "<group>"; };
 		6F2D9F5C1FE35A95005AE4F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F2D9F681FE35DB4005AE4F4 /* ManualEntryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualEntryController.swift; sourceTree = "<group>"; };
+		6FCD87621FE385170057F57C /* HttpClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClient.swift; sourceTree = "<group>"; };
+		6FCD87641FE385C00057F57C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		6FCD87661FE387390057F57C /* FakeURLSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeURLSession.swift; sourceTree = "<group>"; };
+		6FCD87681FE38D850057F57C /* DonorInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonorInfo.swift; sourceTree = "<group>"; };
+		6FCD876C1FE38F3B0057F57C /* Token.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
+		6FCD876E1FE3A02C0057F57C /* VerifyTransactionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyTransactionController.swift; sourceTree = "<group>"; };
+		6FCD87701FE3A34E0057F57C /* CustomTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabController.swift; sourceTree = "<group>"; };
+		6FCD87721FE3CF000057F57C /* CardType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardType.swift; sourceTree = "<group>"; };
+		6FCD87741FE3CF150057F57C /* CardValid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardValid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +95,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F0AE9AC1FE4500E00B784AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F0AE9B11FE4506800B784AF /* libstdc++.6.0.9.tbd */,
+				6F0AE9AF1FE4502900B784AF /* CoreImage.framework */,
+				6F0AE9AD1FE4500F00B784AF /* TesseractOCR.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6F2D9F2E1FE35A94005AE4F4 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +112,7 @@
 				6F2D9F4E1FE35A95005AE4F4 /* RaiseTests */,
 				6F2D9F591FE35A95005AE4F4 /* RaiseUITests */,
 				6F2D9F381FE35A94005AE4F4 /* Products */,
+				6F0AE9AC1FE4500E00B784AF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +130,20 @@
 			isa = PBXGroup;
 			children = (
 				6F2D9F3A1FE35A94005AE4F4 /* AppDelegate.swift */,
-				6F2D9F3C1FE35A94005AE4F4 /* ViewController.swift */,
-				6F2D9F3E1FE35A94005AE4F4 /* Main.storyboard */,
 				6F2D9F411FE35A94005AE4F4 /* Assets.xcassets */,
 				6F2D9F431FE35A94005AE4F4 /* LaunchScreen.storyboard */,
 				6F2D9F461FE35A94005AE4F4 /* Info.plist */,
+				6F2D9F681FE35DB4005AE4F4 /* ManualEntryController.swift */,
+				6FCD87721FE3CF000057F57C /* CardType.swift */,
+				6FCD87621FE385170057F57C /* HttpClient.swift */,
+				6FCD87641FE385C00057F57C /* Extensions.swift */,
+				6FCD87661FE387390057F57C /* FakeURLSession.swift */,
+				6FCD87681FE38D850057F57C /* DonorInfo.swift */,
+				6FCD876C1FE38F3B0057F57C /* Token.swift */,
+				6FCD876E1FE3A02C0057F57C /* VerifyTransactionController.swift */,
+				6FCD87701FE3A34E0057F57C /* CustomTabController.swift */,
+				6FCD87741FE3CF150057F57C /* CardValid.swift */,
+				6F0AE9A21FE4035C00B784AF /* AmountController.swift */,
 			);
 			path = Raise;
 			sourceTree = "<group>";
@@ -234,7 +275,6 @@
 			files = (
 				6F2D9F451FE35A94005AE4F4 /* LaunchScreen.storyboard in Resources */,
 				6F2D9F421FE35A94005AE4F4 /* Assets.xcassets in Resources */,
-				6F2D9F401FE35A94005AE4F4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +299,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F2D9F3D1FE35A94005AE4F4 /* ViewController.swift in Sources */,
+				6F2D9F691FE35DB4005AE4F4 /* ManualEntryController.swift in Sources */,
+				6FCD876F1FE3A02C0057F57C /* VerifyTransactionController.swift in Sources */,
+				6FCD876D1FE38F3B0057F57C /* Token.swift in Sources */,
+				6FCD87731FE3CF000057F57C /* CardType.swift in Sources */,
+				6FCD87631FE385170057F57C /* HttpClient.swift in Sources */,
 				6F2D9F3B1FE35A94005AE4F4 /* AppDelegate.swift in Sources */,
+				6FCD87751FE3CF150057F57C /* CardValid.swift in Sources */,
+				6FCD87711FE3A34E0057F57C /* CustomTabController.swift in Sources */,
+				6FCD87651FE385C00057F57C /* Extensions.swift in Sources */,
+				6F0AE9A31FE4035C00B784AF /* AmountController.swift in Sources */,
+				6FCD87691FE38D850057F57C /* DonorInfo.swift in Sources */,
+				6FCD87671FE387390057F57C /* FakeURLSession.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +346,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		6F2D9F3E1FE35A94005AE4F4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6F2D9F3F1FE35A94005AE4F4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6F2D9F431FE35A94005AE4F4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -366,6 +408,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -416,6 +459,27 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = (
+					"//:configuration",
+					"=",
+					Release,
+					OTHER_LDFLAGS,
+					"=",
+					"-lstdc++",
+					"//:completeSettings",
+					"=",
+					none,
+					"//:configuration",
+					"=",
+					Release,
+					OTHER_LDFLAGS,
+					"=",
+					"-lstdc++",
+					"//:completeSettings",
+					"=",
+					none,
+					"-lstdc++",
+				);
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
@@ -428,6 +492,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V3U34J8YU6;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = Raise/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Daxes-Desai.Raise";
@@ -443,8 +508,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V3U34J8YU6;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = Raise/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "Daxes-Desai.Raise";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

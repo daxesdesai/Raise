@@ -11,26 +11,41 @@ import XCTest
 
 class RaiseTests: XCTestCase {
     
+    var httpClient: HttpClient!
+    
+    let session = FakeURLSession()
+    
     override func setUp() {
         super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        httpClient = HttpClient(session: session)
     }
-    
     override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testPostRequestwithURL() {
+        guard let url = URL(string: "https://mockurl") else {
+            fatalError("URL can't be empty")
+        }
+        let request = NSMutableURLRequest(url: url)
+        httpClient.post(request: request) { (success, response) in
+            // Return data
+        }
+        XCTAssert(session.lastURL == URL(string: "https://mockurl"))
     }
     
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+    func testPostResumeCalled() {
+        let dataTask = FakeURLSessionDataTask()
+        session.nextDataTask = dataTask
+        guard let url = URL(string: "https://mockurl") else {
+            fatalError("URL can't be empty")
         }
+        
+        let request = NSMutableURLRequest(url: url)
+        httpClient.post(request: request) { (success, response) in
+            // Return data
+        }
+        XCTAssert(dataTask.resumeWasCalled)
     }
     
 }
